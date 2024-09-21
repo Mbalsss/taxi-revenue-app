@@ -1,0 +1,36 @@
+/* Main Container Styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Horizontal Form Layout */
+.form-row {
+  display: flex;
+  justify-content: space-around; /* Ensures spacing around items */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form-card {
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1; /* Allows flexible growth to fill space */
+  margin: 0 10px; /* Adds horizontal spacing between forms */
+}
+
+/* Remaining styles unchanged... */
+
